@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF06F6F2-2DC2-42D1-90D5-0B204D99C3C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ConvenienceStore.UI</RootNamespace>
+    <AssemblyName>ConvenienceStore.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Data.v26.1.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.Data.Desktop.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Data.Desktop.v26.1.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.Utils.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Utils.v26.1.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.Drawing.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Drawing.v26.1.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.Charts.v26.1.Core"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Charts.v26.1.Core.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.XtraCharts.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraCharts.v26.1.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.XtraCharts.v26.1.UI"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraCharts.v26.1.UI.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.DataVisualization.v26.1.Core"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.DataVisualization.v26.1.Core.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.XtraEditors.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraEditors.v26.1.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.XtraGrid.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraGrid.v26.1.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath><Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath><Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath><Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath><Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath><Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSession.cs" />
+    <Compile Include="Forms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PermissionCatalog.cs" />
+    <Compile Include="Forms\FrmPurchaseReceipt.Designer.cs"><DependentUpon>FrmPurchaseReceipt.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmPurchaseReceipt.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmPurchaseReceipt.resx"><DependentUpon>FrmPurchaseReceipt.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmRevenueReport.Designer.cs"><DependentUpon>FrmRevenueReport.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmRevenueReport.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmRevenueReport.resx"><DependentUpon>FrmRevenueReport.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmSales.Designer.cs"><DependentUpon>FrmSales.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmSales.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmSales.resx"><DependentUpon>FrmSales.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmStockMovement.Designer.cs"><DependentUpon>FrmStockMovement.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmStockMovement.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmStockMovement.resx"><DependentUpon>FrmStockMovement.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmCategory.Designer.cs"><DependentUpon>FrmCategory.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmCategory.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmCategory.resx"><DependentUpon>FrmCategory.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmCustomer.Designer.cs"><DependentUpon>FrmCustomer.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmCustomer.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmCustomer.resx"><DependentUpon>FrmCustomer.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmInvoice.Designer.cs"><DependentUpon>FrmInvoice.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmInvoice.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmInvoiceReport.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmInvoiceReport.Designer.cs"><DependentUpon>FrmInvoiceReport.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmInvoice.resx"><DependentUpon>FrmInvoice.cs</DependentUpon></EmbeddedResource>
+    <EmbeddedResource Include="Reports\HoaDonBanHang.rdlc"><SubType>Designer</SubType></EmbeddedResource>
+    <EmbeddedResource Include="Reports\BaoCaoDoanhThu.rdlc"><SubType>Designer</SubType></EmbeddedResource>
+    <Compile Include="Forms\FrmProduct.Designer.cs"><DependentUpon>FrmProduct.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmProduct.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmProduct.resx"><DependentUpon>FrmProduct.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmSupplier.Designer.cs"><DependentUpon>FrmSupplier.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmSupplier.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmSupplier.resx"><DependentUpon>FrmSupplier.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmDashboard.Designer.cs"><DependentUpon>FrmDashboard.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmDashboard.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmDashboard.resx"><DependentUpon>FrmDashboard.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmPromotion.Designer.cs"><DependentUpon>FrmPromotion.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmPromotion.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmPromotion.resx"><DependentUpon>FrmPromotion.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmPurchaseHistory.Designer.cs"><DependentUpon>FrmPurchaseHistory.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmPurchaseHistory.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmPurchaseHistory.resx"><DependentUpon>FrmPurchaseHistory.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmStockAdjustment.Designer.cs"><DependentUpon>FrmStockAdjustment.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmStockAdjustment.cs"><SubType>Form</SubType></Compile>
+    <EmbeddedResource Include="Forms\FrmStockAdjustment.resx"><DependentUpon>FrmStockAdjustment.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Helpers\TradeUi.cs" />
+    <Compile Include="Helpers\CatalogUi.cs" />
+    <Compile Include="Helpers\VietQrPayment.cs" />
+    <Compile Include="Forms\FrmQrPayment.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmQrPayment.Designer.cs"><DependentUpon>FrmQrPayment.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmChangePassword.Designer.cs"><DependentUpon>FrmChangePassword.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmRoleManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmRoleManagement.Designer.cs"><DependentUpon>FrmRoleManagement.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmUserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmUserManagement.Designer.cs"><DependentUpon>FrmUserManagement.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmShiftManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmShiftManagement.Designer.cs"><DependentUpon>FrmShiftManagement.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmSupplierDebt.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmSupplierDebt.Designer.cs"><DependentUpon>FrmSupplierDebt.cs</DependentUpon></Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Forms\FrmDatabaseSetup.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmDatabaseSetup.Designer.cs"><DependentUpon>FrmDatabaseSetup.cs</DependentUpon></Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Content Include="..\ConvenienceStore.Data\Database\ConvenienceStoreDB.sql"><Link>Database\ConvenienceStoreDB.sql</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <None Include="packages.config" />
+    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x86\msvcr120.dll"><Link>SqlServerTypes\x86\msvcr120.dll</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x86\SqlServerSpatial140.dll"><Link>SqlServerTypes\x86\SqlServerSpatial140.dll</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x64\msvcr120.dll"><Link>SqlServerTypes\x64\msvcr120.dll</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x64\SqlServerSpatial140.dll"><Link>SqlServerTypes\x64\SqlServerSpatial140.dll</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConvenienceStore.Business\ConvenienceStore.Business.csproj">
+      <Project>{7b5b4bc5-1ef6-4bc8-991e-d67a8cc29256}</Project>
+      <Name>ConvenienceStore.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConvenienceStore.Data\ConvenienceStore.Data.csproj">
+      <Project>{45fd314e-ee7d-4fbc-a911-d45e1103afff}</Project>
+      <Name>ConvenienceStore.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
