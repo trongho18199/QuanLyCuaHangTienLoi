@@ -20,7 +20,7 @@ namespace ConvenienceStore.UI.Helpers
             string accountNo = Required("VietQrAccountNo");
             string template = ConfigurationManager.AppSettings["VietQrTemplate"] ?? "qr_only";
             return "https://img.vietqr.io/image/" + Uri.EscapeDataString(bankId) + "-" +
-                Uri.EscapeDataString(accountNo) + "-" + Uri.EscapeDataString(template) + ".png?amount=" +
+                Uri.EscapeDataString(accountNo) + "-" + Uri.EscapeDataString(template) + ".svg?amount=" +
                 amount.ToString("0", CultureInfo.InvariantCulture) + "&addInfo=" + Uri.EscapeDataString(reference);
         }
 

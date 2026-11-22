@@ -35,30 +35,65 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Data.v26.1.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.Data.Desktop.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Data.Desktop.v26.1.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.Utils.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Utils.v26.1.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.Drawing.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Drawing.v26.1.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.Charts.v26.1.Core"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.Charts.v26.1.Core.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.XtraCharts.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraCharts.v26.1.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.XtraCharts.v26.1.UI"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraCharts.v26.1.UI.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.DataVisualization.v26.1.Core"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.DataVisualization.v26.1.Core.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.XtraEditors.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraEditors.v26.1.dll</HintPath><Private>True</Private></Reference>
-    <Reference Include="DevExpress.XtraGrid.v26.1"><HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraGrid.v26.1.dll</HintPath><Private>True</Private></Reference>
+    <Reference Include="DevExpress.Data.v26.1">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.Data.v26.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v26.1">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.Data.Desktop.v26.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v26.1">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.Utils.v26.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Drawing.v26.1">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.Drawing.v26.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v26.1.Core">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.Charts.v26.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v26.1">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraCharts.v26.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v26.1.UI">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraCharts.v26.1.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataVisualization.v26.1.Core">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.DataVisualization.v26.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v26.1">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraEditors.v26.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v26.1">
+      <HintPath>D:\DevExpress\Bin\Framework\DevExpress.XtraGrid.v26.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath><Private>True</Private>
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath><Private>True</Private>
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath><Private>True</Private>
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath><Private>True</Private>
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath><Private>True</Private>
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -90,75 +125,181 @@
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="PermissionCatalog.cs" />
-    <Compile Include="Forms\FrmPurchaseReceipt.Designer.cs"><DependentUpon>FrmPurchaseReceipt.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmPurchaseReceipt.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmPurchaseReceipt.resx"><DependentUpon>FrmPurchaseReceipt.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmRevenueReport.Designer.cs"><DependentUpon>FrmRevenueReport.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmRevenueReport.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmRevenueReport.resx"><DependentUpon>FrmRevenueReport.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmSales.Designer.cs"><DependentUpon>FrmSales.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmSales.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmSales.resx"><DependentUpon>FrmSales.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmStockMovement.Designer.cs"><DependentUpon>FrmStockMovement.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmStockMovement.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmStockMovement.resx"><DependentUpon>FrmStockMovement.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmCategory.Designer.cs"><DependentUpon>FrmCategory.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmCategory.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmCategory.resx"><DependentUpon>FrmCategory.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmCustomer.Designer.cs"><DependentUpon>FrmCustomer.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmCustomer.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmCustomer.resx"><DependentUpon>FrmCustomer.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmInvoice.Designer.cs"><DependentUpon>FrmInvoice.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmInvoice.cs"><SubType>Form</SubType></Compile>
-    <Compile Include="Forms\FrmInvoiceReport.cs"><SubType>Form</SubType></Compile>
-    <Compile Include="Forms\FrmInvoiceReport.Designer.cs"><DependentUpon>FrmInvoiceReport.cs</DependentUpon></Compile>
-    <EmbeddedResource Include="Forms\FrmInvoice.resx"><DependentUpon>FrmInvoice.cs</DependentUpon></EmbeddedResource>
-    <EmbeddedResource Include="Reports\HoaDonBanHang.rdlc"><SubType>Designer</SubType></EmbeddedResource>
-    <EmbeddedResource Include="Reports\BaoCaoDoanhThu.rdlc"><SubType>Designer</SubType></EmbeddedResource>
-    <Compile Include="Forms\FrmProduct.Designer.cs"><DependentUpon>FrmProduct.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmProduct.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmProduct.resx"><DependentUpon>FrmProduct.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmSupplier.Designer.cs"><DependentUpon>FrmSupplier.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmSupplier.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmSupplier.resx"><DependentUpon>FrmSupplier.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmDashboard.Designer.cs"><DependentUpon>FrmDashboard.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmDashboard.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmDashboard.resx"><DependentUpon>FrmDashboard.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmPromotion.Designer.cs"><DependentUpon>FrmPromotion.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmPromotion.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmPromotion.resx"><DependentUpon>FrmPromotion.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmPurchaseHistory.Designer.cs"><DependentUpon>FrmPurchaseHistory.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmPurchaseHistory.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmPurchaseHistory.resx"><DependentUpon>FrmPurchaseHistory.cs</DependentUpon></EmbeddedResource>
-    <Compile Include="Forms\FrmStockAdjustment.Designer.cs"><DependentUpon>FrmStockAdjustment.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmStockAdjustment.cs"><SubType>Form</SubType></Compile>
-    <EmbeddedResource Include="Forms\FrmStockAdjustment.resx"><DependentUpon>FrmStockAdjustment.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmPurchaseReceipt.Designer.cs">
+      <DependentUpon>FrmPurchaseReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmPurchaseReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmPurchaseReceipt.resx">
+      <DependentUpon>FrmPurchaseReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmRevenueReport.Designer.cs">
+      <DependentUpon>FrmRevenueReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmRevenueReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmRevenueReport.resx">
+      <DependentUpon>FrmRevenueReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmSales.Designer.cs">
+      <DependentUpon>FrmSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmSales.resx">
+      <DependentUpon>FrmSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmStockMovement.Designer.cs">
+      <DependentUpon>FrmStockMovement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmStockMovement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmStockMovement.resx">
+      <DependentUpon>FrmStockMovement.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmCustomer.Designer.cs">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmInvoice.Designer.cs">
+      <DependentUpon>FrmInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmInvoiceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmInvoiceReport.Designer.cs">
+      <DependentUpon>FrmInvoiceReport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmInvoice.resx">
+      <DependentUpon>FrmInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HoaDonBanHang.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BaoCaoDoanhThu.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmProduct.Designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmSupplier.Designer.cs">
+      <DependentUpon>FrmSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmSupplier.resx">
+      <DependentUpon>FrmSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmDashboard.Designer.cs">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmDashboard.resx">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmPromotion.Designer.cs">
+      <DependentUpon>FrmPromotion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmPromotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmPromotion.resx">
+      <DependentUpon>FrmPromotion.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmPurchaseHistory.Designer.cs">
+      <DependentUpon>FrmPurchaseHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmPurchaseHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmPurchaseHistory.resx">
+      <DependentUpon>FrmPurchaseHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Forms\FrmStockAdjustment.Designer.cs">
+      <DependentUpon>FrmStockAdjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmStockAdjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmStockAdjustment.resx">
+      <DependentUpon>FrmStockAdjustment.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="Helpers\TradeUi.cs" />
     <Compile Include="Helpers\CatalogUi.cs" />
     <Compile Include="Helpers\VietQrPayment.cs" />
-    <Compile Include="Forms\FrmQrPayment.cs"><SubType>Form</SubType></Compile>
-    <Compile Include="Forms\FrmQrPayment.Designer.cs"><DependentUpon>FrmQrPayment.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmQrPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmQrPayment.Designer.cs">
+      <DependentUpon>FrmQrPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmChangePassword.Designer.cs"><DependentUpon>FrmChangePassword.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmChangePassword.Designer.cs">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmRoleManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmRoleManagement.Designer.cs"><DependentUpon>FrmRoleManagement.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmRoleManagement.Designer.cs">
+      <DependentUpon>FrmRoleManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmUserManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmUserManagement.Designer.cs"><DependentUpon>FrmUserManagement.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmUserManagement.Designer.cs">
+      <DependentUpon>FrmUserManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmShiftManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmShiftManagement.Designer.cs"><DependentUpon>FrmShiftManagement.cs</DependentUpon></Compile>
-    <Compile Include="Forms\FrmSupplierDebt.cs"><SubType>Form</SubType></Compile>
-    <Compile Include="Forms\FrmSupplierDebt.Designer.cs"><DependentUpon>FrmSupplierDebt.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmShiftManagement.Designer.cs">
+      <DependentUpon>FrmShiftManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSupplierDebt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSupplierDebt.Designer.cs">
+      <DependentUpon>FrmSupplierDebt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Forms\FrmDatabaseSetup.cs"><SubType>Form</SubType></Compile>
-    <Compile Include="Forms\FrmDatabaseSetup.Designer.cs"><DependentUpon>FrmDatabaseSetup.cs</DependentUpon></Compile>
+    <Compile Include="Forms\FrmDatabaseSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmDatabaseSetup.Designer.cs">
+      <DependentUpon>FrmDatabaseSetup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -181,12 +322,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Content Include="..\ConvenienceStore.Data\Database\ConvenienceStoreDB.sql"><Link>Database\ConvenienceStoreDB.sql</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="..\ConvenienceStore.Data\Database\ConvenienceStoreDB.sql">
+      <Link>Database\ConvenienceStoreDB.sql</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
-    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x86\msvcr120.dll"><Link>SqlServerTypes\x86\msvcr120.dll</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
-    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x86\SqlServerSpatial140.dll"><Link>SqlServerTypes\x86\SqlServerSpatial140.dll</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
-    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x64\msvcr120.dll"><Link>SqlServerTypes\x64\msvcr120.dll</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
-    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x64\SqlServerSpatial140.dll"><Link>SqlServerTypes\x64\SqlServerSpatial140.dll</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x86\msvcr120.dll">
+      <Link>SqlServerTypes\x86\msvcr120.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x86\SqlServerSpatial140.dll">
+      <Link>SqlServerTypes\x86\SqlServerSpatial140.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x64\msvcr120.dll">
+      <Link>SqlServerTypes\x64\msvcr120.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.14.0.1016.290\nativeBinaries\x64\SqlServerSpatial140.dll">
+      <Link>SqlServerTypes\x64\SqlServerSpatial140.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConvenienceStore.Business\ConvenienceStore.Business.csproj">

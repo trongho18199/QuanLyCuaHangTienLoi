@@ -1,8 +1,7 @@
 using System;
-using System.Drawing;
 using System.Net.Http;
-using System.Windows.Forms;
 using ConvenienceStore.UI.Helpers;
+using DevExpress.Utils.Svg;
 
 namespace ConvenienceStore.UI.Forms
 {
@@ -31,8 +30,7 @@ namespace ConvenienceStore.UI.Forms
                 lblLoadStatus.Text = "Đang tải mã VietQR...";
                 using (var client = new HttpClient())
                 using (var stream = await client.GetStreamAsync(qrUrl))
-                using (var image = Image.FromStream(stream))
-                    pictureQr.Image = new Bitmap(image);
+                    pictureQr.SvgImage = SvgImage.FromStream(stream);
                 lblLoadStatus.Text = "Khách quét mã bằng ứng dụng ngân hàng.";
             }
             catch (Exception)
